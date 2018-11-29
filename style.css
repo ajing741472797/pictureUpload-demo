@@ -3,13 +3,16 @@
     padding-top: 90px;
     width: 400px;
     height: 600px;
-    background: -webkit-linear-gradient(top, #6a6da9 1%,#585eaa 50%,#494e8f 100%);
-   
+    background:white;
 }
-body{
+.xxx{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+body{
+    background: -webkit-linear-gradient(top, #6a6da9 1%,#585eaa 50%,#494e8f 100%);
+
 }
 
 
@@ -65,7 +68,7 @@ body{
     margin-left: 88px;
     margin-top: 60px;
     padding-bottom: 30px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(46, 18, 45, 0.2);
     border-radius: 5px;
 }
 .text span:nth-child(1){
@@ -75,7 +78,7 @@ body{
 .text span{
     margin-top:15px;
     display: inline-block;
-    color: white;
+    color: #694d9f;
 
     width: 180px;
 }
