@@ -1,3 +1,19 @@
+
+.wrapper{
+    padding-top: 90px;
+    width: 400px;
+    height: 600px;
+    background: -webkit-linear-gradient(top, #6a6da9 1%,#585eaa 50%,#494e8f 100%);
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .imagePicker{
     width:120px;
     height: 120px;
@@ -41,4 +57,25 @@
 }
 .imagePicker:hover .mask{
     display: flex;
+}
+.text{
+    text-align: left;
+    width: 200px;
+    padding-left: 30px;
+    margin-left: 88px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.text span:nth-child(1){
+    margin-top: 20px;
+    display: inline-block;
+}
+.text span{
+    margin-top:15px;
+    display: inline-block;
+    color: white;
+
+    width: 180px;
 }
